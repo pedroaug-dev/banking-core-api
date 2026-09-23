@@ -1,0 +1,93 @@
+# 1. Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+virtualenv/
+.venv*/
+
+# 2. Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 3. Testing, Coverage & Linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+
+# 4. Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+*.pfx
+secrets.json
+
+# 5. Database, Local Storage & Docker Persistence
+*.sqlite
+*.sqlite3
+*.db
+postgres-data/
+redis-data/
+dump.rdb
+*.log
+logs/
+
+# 6. Documentation & Internal Mentorship Roadmap
+ROADMAP.md
+
+# 7. IDEs & Code Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# 8. Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
